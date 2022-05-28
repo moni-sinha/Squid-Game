@@ -1,0 +1,133 @@
+body{
+    font-size: 17px;
+    font-family: arial;
+    background: #C49557;
+    line-height: 1.5em;
+}
+#warning-message { display: none; }
+    @media only screen and (orientation:portrait){
+        #wrapper { display:none; }
+        #warning-message { display:block; }
+    }
+    @media only screen and (orientation:landscape){
+        #warning-message { display:none; }
+    }
+header{
+    background: #333;
+    padding: 20px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.navbar-nav {
+    margin-left: auto;
+    color: #e83c80;
+  }
+  
+  .nav-item {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: "Monsterrat-light";
+  }
+  @font-face{
+    font-family: sevenSegment;
+    src: url(Assets/seven-segment.ttf);
+}
+
+ #first_container{
+     width: 90%;
+     margin: auto;
+     padding: 10px;
+ }
+ .start{
+     justify-content: center;
+     text-align: center;
+     padding: 2%;
+ }
+ #start_button{
+     width: 20%;
+ }
+ #box{
+     background-color: black;
+     color:#fff;
+     padding: 40px;
+     margin:10px;
+     text-align: center;
+ }
+ #lightback{
+     background-color: #333;
+     width:114px;
+     height:94px;
+ }
+ #lightCenter{
+     height: 75px;
+     width: 75px;
+     border-radius: 50%;
+     justify-content: center;
+     position: absolute;
+     margin: 9px;
+ }
+ #player456{
+     background: url(Assets/player.png);
+     width: 100px;
+     height: 100px;
+     display: inline-block;
+     position: absolute;
+     left: 70px;
+ }
+ .red{
+     background-color: red;
+ }
+  .timer{
+      color: azure;
+      background-color: black;
+      font-family: sevenSegment;
+      margin-right: 6%;
+      height: 2.5rem;
+      width: 8%;
+      font-size: 2rem;
+      padding: 2px 6px;
+      border: 7px solid #FAFDD6;
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+  }
+  #finish_line{
+      background-color: red;
+      width: 10px;
+      height: 100px;
+      display: inline-block;
+      position: absolute;
+      left:1097px;
+  }
+  #killerdoll{
+      width: 100px;
+      height: 100px;
+      display: inline-block;
+      position: absolute;
+      left: 1110px;
+  }
+  #soldier{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: absolute;
+    left: 1110px;
+    top:520px;
+  }
+  .squidSoldier{
+      background: url(Assets/squid-soldier.png);
+  }
+  .notLooking{
+      background: url(Assets/squid-game-not-looking.png);
+  }
+  .Looking{
+      background: url(Assets/squid-game-looking.png);
+  }
+  .green{
+      background-color: green;
+  }
+  .playbuttons{
+      margin-top: 110px;
+  }
